@@ -1,5 +1,5 @@
 package main
-func Burbuja(s []int64)  {
+func Burbuja(s []int64) []int64{
 	var aux int64;
 	var t,j,i int;
 	t=len(s);
@@ -12,6 +12,7 @@ func Burbuja(s []int64)  {
 			}
 		}
 	}
+	return s;
 }
 
 func main()  {
